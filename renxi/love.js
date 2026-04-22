@@ -187,7 +187,7 @@
       ctx.scale(0.75, 0.75);
       ctx.font = "12px,Verdana";
       ctx.fillText("<- Click Here My", 30, -5);
-      ctx.fillText("Birthday Queen !", 28, 10);
+      ctx.fillText("Beautiful wife !", 28, 10);
       ctx.restore();
     },
     clear: function () {
@@ -618,10 +618,10 @@
 })(window);
 
 function updateClock() {
-  // শুরুর তারিখ (2003-09-10)
-  var startDate = new Date("2003-09-10T00:00:00");
+  // শুরুর তারিখ (2023-06-15)
+  var startDate = new Date("2023-06-15T00:00:00");
 
-  // বর্তমান সময়
+  // বর্তমান সময়
   var now = new Date();
 
   // পার্থক্য মিলিসেকেন্ডে

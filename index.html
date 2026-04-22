@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="icon" type="image/png" href="image/favicon.ico" />
-    <title>HBD My Love</title>
+    <title>My Love</title>
     <link type="text/css" rel="stylesheet" href="./renxi/default.css" />
     <script type="text/javascript" src="./renxi/jquery.min.js"></script>
     <script type="text/javascript" src="./renxi/jscex.min.js"></script>
@@ -49,17 +49,25 @@
       <div id="wrap">
         <div id="text">
           <div id="code">
-            <span class="say">My beautiful wife 💞</span><br />
-            <span class="say">Happy Birthday 🎈</span><br />
-            <span class="say">May Allah bless you 🍀</span><br />
-            <span class="say">And give u many happiness 💕</span><br />
-            <span class="say">I love you ❤️</span><br />
-            <span class="say">And I will always love u 🥺 ❤️</span><br />
-            <span class="say">Hope u have a great day today ❤️😘</span><br />
+            <span class="say">My forever love 💞</span><br />
+            <span class="say">Happy Anniversary jaan 🎉</span><br />
+            <span class="say">You are my heart and my soul 💖</span><br />
+            <span class="say">Alhamdulillah for having you 🤲</span><br />
+            <span class="say">You make my life so beautiful 🌸</span><br />
+            <span class="say">Every day with you is a blessing ✨</span><br />
+            <span class="say">I love you more than yesterday ❤️</span><br />
+            <span class="say">And I’ll love you more tomorrow 🥺💕</span><br />
+            <span class="say">Stay with me forever my love 💍</span><br />
+            <span class="say">You are my everything 😘</span><br />
+            <span class="say">May Allah always keep you smiling 😊🍀</span
+            ><br />
+            <span class="say">I’m so lucky to have you 💗</span><br />
+            <span class="say">You are my home 🏡❤️</span><br />
+            <span class="say">Together forever, In Sha Allah 🤍</span><br />
           </div>
         </div>
         <div id="clock-box">
-          <div id="clock-text">Since 10 September 2003 💞</div>
+          <div id="clock-text">Since 15 June 2023 💞</div>
           <span id="clock"></span>
         </div>
         <canvas id="canvas" width="1100" height="680"></canvas>
@@ -204,7 +212,7 @@
               foot.draw();
               $await(Jscex.Async.sleep(10));
             }
-          })
+          }),
         );
 
         var growAnimate = eval(
@@ -213,7 +221,7 @@
               tree.grow();
               $await(Jscex.Async.sleep(10));
             } while (tree.canGrow());
-          })
+          }),
         );
 
         var flowAnimate = eval(
@@ -222,7 +230,7 @@
               tree.flower(2);
               $await(Jscex.Async.sleep(10));
             } while (tree.canFlower());
-          })
+          }),
         );
 
         var moveAnimate = eval(
@@ -241,7 +249,7 @@
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
             canvas.css("background", "none");
-          })
+          }),
         );
 
         var jumpAnimate = eval(
@@ -253,7 +261,7 @@
               foot.draw();
               $await(Jscex.Async.sleep(25));
             }
-          })
+          }),
         );
 
         var textAnimate = eval(
@@ -271,7 +279,7 @@
               timeElapse(together);
               $await(Jscex.Async.sleep(1000));
             }
-          })
+          }),
         );
 
         var runAsync = eval(
@@ -284,7 +292,7 @@
             textAnimate().start();
 
             $await(jumpAnimate());
-          })
+          }),
         );
 
         runAsync().start();
