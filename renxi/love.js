@@ -187,7 +187,7 @@
       ctx.scale(0.75, 0.75);
       ctx.font = "12px,Verdana";
       ctx.fillText("<- Click Here My", 30, -5);
-      ctx.fillText("Beautiful wife !", 28, 10);
+      ctx.fillText("Beautiful wife  !", 28, 10);
       ctx.restore();
     },
     clear: function () {
@@ -626,7 +626,7 @@ function updateClock() {
 
   // পার্থক্য মিলিসেকেন্ডে
   var diff = now - startDate;
-
+ 
   // কনভার্সন
   var days = Math.floor(diff / (1000 * 60 * 60 * 24));
   var hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
